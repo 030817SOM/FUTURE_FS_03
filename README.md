@@ -1,73 +1,126 @@
-# React + TypeScript + Vite
+🍽️ Restaurant Website Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional business website built for a real restaurant to improve its online presence, attract customers, and increase sales. This project simulates a real-world client scenario where the website is designed and pitched directly to the business owner.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project focuses on creating a modern, responsive website for a restaurant. The goal is to help the business:
 
-## React Compiler
+Showcase its menu and brand
+Attract new customers online
+Provide essential information (location, hours, contact)
+Increase customer engagement and conversions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The website is designed with real users in mind and structured to solve actual business problems.
 
-## Expanding the ESLint configuration
+🎯 Project Objectives
+Build a visually appealing and user-friendly website
+Represent a real restaurant business professionally
+Practice pitching a digital solution to a client
+Demonstrate real-world web development skills
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🛠️ Tools & Technologies
+HTML
+CSS (TailwindCSS optional)
+JavaScript
+(Optional) WordPress / AI Website Builders
+(Optional) Canva / Figma (for UI/UX design)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✨ Key Features
+🏠 Home Page
+Eye-catching hero section
+Clear branding and call-to-action
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+📖 Menu Section
+Display of food and drinks
+Organized categories (e.g., starters, mains, desserts)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📍 Contact & Location
+Address and embedded map
+Contact form or details
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+⏰ Business Information
+Opening hours
+Phone number / email
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📱 Responsive Design
+Works on mobile, tablet, and desktop
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+⭐ Customer Experience Focus
+Easy navigation
+
+Fast loading and clean layout
+🧠 Skills Demonstrated
+
+Frontend web development
+UI/UX design principles
+Responsive design
+Real-world problem solving
+Client-focused thinking
+Communication & pitching
+
+📂 Project Structure
+restaurant/
+│
+├── index.html
+├── about.html
+├── menu.html
+├── contact.html
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
+│
+└── assets/
+    ├── images/
+    └── icons/
+🌐 Live Demo
+
+👉 Add your deployed website link here (Netlify / Vercel / GitHub Pages)
+
+💡 Business Value (Pitch Summary)
+
+This website helps the restaurant grow by:
+
+📈 Increasing Visibility
+Customers can easily find the business online
+
+🍽️ Showcasing the Menu
+Helps customers decide before visiting
+
+📞 Improving Communication
+Easy access to contact details and location
+
+🧲 Attracting More Customers
+A professional website builds trust and credibility
+
+📱 Mobile Accessibility
+Most users browse on phones — this site is optimized for that
+
+🗣️ Pitch Explanation
+
+This website is designed as a digital solution for the restaurant to compete in today’s online-driven market. Many customers search for restaurants online before visiting — without a website, the business loses potential customers.
+
+By having this website, the restaurant:
+Builds a strong online presence
+Engages customers visually
+Provides instant access to important information
+Encourages visits and orders
+
+🔮 Future Improvements
+🛒 Online ordering system
+📅 Reservation/booking feature
+⭐ Customer reviews section
+📸 Gallery of meals and events
+🔗 Social media integration
+👤 Author
+
+Wanga Somhlaba
+
+🎓 University of Fort Hare (BSc Computer Science & Mathematics)
+🌍 South Africa
+
+📄 License
+This project is for educational and demonstration purposes.
