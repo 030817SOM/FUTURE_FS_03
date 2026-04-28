@@ -1,5 +1,7 @@
 🍽️ Restaurant Website Project
 
+Live demo: https://picobella.netlify.app/
+
 A professional business website built for a real restaurant to improve its online presence, attract customers, and increase sales. This project simulates a real-world client scenario where the website is designed and pitched directly to the business owner.
 
 🚀 Project Overview
